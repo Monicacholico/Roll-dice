@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-i {
-    font-size: 3rem;
-    margin: 1rem;
+.App-wrapper {
+    max-width: 350vh;
+    margin: auto;
 }

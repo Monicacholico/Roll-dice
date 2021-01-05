@@ -1,0 +1,33 @@
+i {
+    font-size: 3rem;
+    margin: 1rem;
+    color: slateblue;
+
+}
+
+.Die-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.Die-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Die-button {
+    margin: 2rem;
+
+}
+
+.Die-button button {
+    border-radius: 0.3rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.Die-button button:hover {
+    background-color: darkslateblue;
+}
